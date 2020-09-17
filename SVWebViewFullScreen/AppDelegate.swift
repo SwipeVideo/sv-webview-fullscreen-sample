@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SVWebViewFullScreen
 //
-//  Created by taichi nakazono on 2020/09/17.
+//  Created by nakazono on 2020/09/17.
 //  Copyright © 2020 nakazono. All rights reserved.
 //
 

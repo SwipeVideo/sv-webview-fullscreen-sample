@@ -13,6 +13,7 @@
 		B5B673BE25131DD20011EF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B673BC25131DD20011EF98 /* Main.storyboard */; };
 		B5B673C025131DD50011EF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B673BF25131DD50011EF98 /* Assets.xcassets */; };
 		B5B673C325131DD50011EF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B673C125131DD50011EF98 /* LaunchScreen.storyboard */; };
+		B5B673CC25131FEB0011EF98 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B673CB25131FEA0011EF98 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B5B673BF25131DD50011EF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5B673C225131DD50011EF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5B673C425131DD50011EF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B673CB25131FEA0011EF98 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B673CC25131FEB0011EF98 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				B5B673B525131DD20011EF98 /* SVWebViewFullScreen */,
 				B5B673B425131DD20011EF98 /* Products */,
+				B5B673CA25131FEA0011EF98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				B5B673C425131DD50011EF98 /* Info.plist */,
 			);
 			path = SVWebViewFullScreen;
+			sourceTree = "<group>";
+		};
+		B5B673CA25131FEA0011EF98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5B673CB25131FEA0011EF98 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
